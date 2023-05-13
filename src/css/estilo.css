@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1280px;
+    margin:  0 auto ;
+    background-image:linear-gradient(to top,aliceblue,#5e5b5bad,#a11f1f 80%);
+    color: #333333; 
+
+}
+
+body.night-mode{
+    background-image:linear-gradient(to top,#212121 15%,#000e35 60%);
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo, 
+header .imagen-button{
+    width: 30px;
+}
+
+ header #theme-mode{
+    background: none;
+    border: none;
+    
+
+}
+
+header .logo:hover,
+header #theme-mode:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main{
+    padding: 25px;
+}
+
+ main .lista-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    
+    
+    
+}
+
+main .cart-pokemon{
+    width: 250px;
+    background:  rgb(4, 146, 204);
+    border-radius: 10px ;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
