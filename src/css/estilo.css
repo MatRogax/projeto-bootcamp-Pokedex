@@ -8,7 +8,7 @@ body{
 }
 
 body.night-mode{
-    background-image:linear-gradient(to top,#212121 15%,#000e35 60%);
+    background-image:linear-gradient(to top,#212121 20%,#000e35 60%);
     color: aliceblue;
 }
 
