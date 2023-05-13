@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    width: 1280px;
+    width: 1180px;
     margin:  0 auto ;
     background-image:linear-gradient(to top,aliceblue,#5e5b5bad,#a11f1f 80%);
     color: #333333; 
@@ -19,10 +19,13 @@ header{
     padding: 25px;
 }
 
-header .logo, 
+header .logo , 
 header .imagen-button{
     width: 30px;
+    transition: 0.3s ease-in-out;
 }
+
+
 
  header #theme-mode{
     background: none;
@@ -32,8 +35,8 @@ header .imagen-button{
 }
 
 header .logo:hover,
-header #theme-mode:hover{
-    transform: scale(1.05);
+header .imagen-button:hover{
+    transform: scale(1.5);
     cursor: pointer;
 }
 
@@ -44,7 +47,7 @@ main{
  main .lista-pokemon{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
     justify-content: center;
     
     
@@ -53,11 +56,56 @@ main{
 
 main .cart-pokemon{
     width: 250px;
-    background:  rgb(4, 146, 204);
-    border-radius: 10px ;
-    padding: 15px;
+    background: #150050;
+    border-radius: 15px ;
+    border: 2px solid rgb(4, 146, 204)  ;
+    padding:  15px;
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    max-height: 450px;
     
 
+}
+
+#cart-grama{
+    transition: 0.4s ease-in-out;
+}
+
+#cart-grama:hover{
+    background-color: chartreuse;
+
+}
+
+#cart-agua{
+    transition: 0.3s ease-in-out;
+}
+
+#cart-agua:hover{
+    background-color: rgb(4, 146, 204) ;
+
+}
+
+#cart-fogo{
+    transition: 0.3s ease-in-out;
+}
+
+#cart-fogo:hover{
+    background-color: rgb(252, 24, 3);
+
+}
+
+#cart-inseto{
+    transition: 0.3s ease-in-out;
+}
+
+#cart-inseto:hover{
+    background-color:rgb(34, 126, 24);
+
+}
+
+main .cart-pokemon:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
