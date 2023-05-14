@@ -65,6 +65,8 @@ main .cart-pokemon{
     gap: 15px;
     text-align: center;
     max-height: 450px;
+    justify-content: center;
+    align-items: center;
     
 
 }
@@ -83,7 +85,7 @@ main .cart-pokemon{
 }
 
 #cart-agua:hover{
-    background-color: rgb(4, 146, 204) ;
+    background-color: rgb(1, 55, 163);
 
 }
 
@@ -109,3 +111,74 @@ main .cart-pokemon:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
+
+main .cart-pokemon .inform{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 5px;
+
+
+}
+main .cart-pokemon .inform span{
+
+    
+    padding: 5px;
+    
+
+}
+
+
+ main .cart-pokemon .gif{
+    width: 150px;
+    height: 190px;
+    
+
+ }
+
+ main .cart-pokemon .tipos{
+
+    display: flex;
+    padding:8px;
+    padding-top: 10pxx;
+    gap: 30px;
+ }
+
+
+ .tipo-grama{
+    background-color: rgb(4, 77, 41);
+    border-radius: 10px;
+    padding: 8px;
+ }
+
+ .tipo-veneno{
+    background-color: rgb(89, 41, 157);
+    border-radius: 10px;
+    padding: 8px;
+
+ }
+
+ .tipo-fogo{
+    background-color: rgb(223, 109, 18);
+    border-radius: 10px;
+    padding: 8px;
+ }
+
+ .tipo-voador{
+  background-color:rgb(153, 167, 251);
+  border-radius: 10px;
+  padding: 8px;
+ }
+
+ .tipo-agua{
+    background-color: rgb(4, 146, 204) ; ;
+    border-radius: 10px;
+    padding: 8px;
+ }
+
+ .tipo-inseto{
+    background-color: rgb(38, 155, 136);
+    border-radius: 10px;
+    padding: 8px;
+    
+ }
