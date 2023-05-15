@@ -2,13 +2,19 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 1180px;
     margin:  0 auto ;
-    background-image:linear-gradient(to top,aliceblue,#5e5b5bad,#a11f1f 80%);
-    color: #333333; 
+    background: url(img/light-mode_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #000000; 
 
 }
 
 body.night-mode{
-    background-image:linear-gradient(to top,#212121 20%,#000e35 60%);
+    background: url(img/night-mode_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     color: aliceblue;
 }
 
@@ -16,13 +22,26 @@ header{
     display: flex;
     background: transparent;
     justify-content: space-between;
-    padding: 25px;
+    padding: 15px;
+    align-items: center;
 }
 
-header .logo , 
+header .logo ,
 header .imagen-button{
     width: 30px;
     transition: 0.3s ease-in-out;
+}
+
+
+
+header .logo-pokemon{
+    width: 150px;
+    transition: 0.3s ease-in-out;
+}
+
+header .logo-pokemon:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
 
@@ -54,9 +73,11 @@ main{
     
 }
 
+
 main .cart-pokemon{
     width: 250px;
-    background: #150050;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
     border-radius: 15px ;
     border: 2px solid rgb(4, 146, 204)  ;
     padding:  15px;
@@ -71,12 +92,23 @@ main .cart-pokemon{
 
 }
 
+main .cart-pokemon , #cart-grama{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+main .cart-pokemon .night-mode{
+    background: #150050;
+}
+
 #cart-grama{
     transition: 0.4s ease-in-out;
 }
 
 #cart-grama:hover{
-    background-color: chartreuse;
+    background-color: #9bcc50;
 
 }
 
@@ -85,7 +117,7 @@ main .cart-pokemon{
 }
 
 #cart-agua:hover{
-    background-color: rgb(1, 55, 163);
+    background-color: rgba(1, 55, 163, 0.795);
 
 }
 
@@ -93,14 +125,23 @@ main .cart-pokemon{
     transition: 0.3s ease-in-out;
 }
 
-#cart-fogo:hover{
-    background-color: rgb(252, 24, 3);
+#cart-fogo:hover 
+{
+    background-color: rgba(252, 24, 3, 0.616);
 
 }
 
 #cart-inseto{
     transition: 0.3s ease-in-out;
 }
+#cart-inseto-veneno{
+    transition: 0.3s ease-in-out;
+}
+#cart-inseto-veneno:hover{
+    background-color: color-mix(in srgb, #0ce62c,#59299d);
+}
+
+
 
 #cart-inseto:hover{
     background-color:rgb(34, 126, 24);
