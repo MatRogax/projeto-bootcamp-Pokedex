@@ -92,12 +92,7 @@ main .cart-pokemon{
 
 }
 
-main .cart-pokemon , #cart-grama{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
+
 
 main .cart-pokemon .night-mode{
     background: #150050;
@@ -108,7 +103,7 @@ main .cart-pokemon .night-mode{
 }
 
 #cart-grama:hover{
-    background-color: #9bcc50;
+    background-color: #5f9907;
 
 }
 
@@ -127,7 +122,7 @@ main .cart-pokemon .night-mode{
 
 #cart-fogo:hover 
 {
-    background-color: rgba(252, 24, 3, 0.616);
+    background-color: rgba(170, 27, 14, 0.651);
 
 }
 
@@ -138,7 +133,14 @@ main .cart-pokemon .night-mode{
     transition: 0.3s ease-in-out;
 }
 #cart-inseto-veneno:hover{
-    background-color: color-mix(in srgb, #0ce62c,#59299d);
+    background-color: color-mix(in srgb, #0ce62d,#59299d);
+}
+#cart-normal{
+    transition: 0.3s ease-in-out;
+}
+#cart-normal:hover{
+    background-color: rgb(160, 160, 160);
+
 }
 
 
@@ -147,6 +149,22 @@ main .cart-pokemon .night-mode{
     background-color:rgb(34, 126, 24);
 
 }
+
+#cart-voador-normal{
+    transition: 0.3s ease-in-out;
+}
+
+#cart-voador-normal:hover{
+   background-color:rgb(121, 133, 199); 
+}
+
+#cart-normal-voador{
+    transition: 0.3s ease-in-out;
+}
+#cart-normal-voador:hover{
+    background-color:rgb(121, 188, 215);
+}
+
 
 main .cart-pokemon:hover{
     transform: scale(1.05);
@@ -171,8 +189,8 @@ main .cart-pokemon .inform span{
 
 
  main .cart-pokemon .gif{
-    width: 150px;
-    height: 190px;
+    width: 160px;
+    height: 200px;
     
 
  }
@@ -181,8 +199,9 @@ main .cart-pokemon .inform span{
 
     display: flex;
     padding:8px;
-    padding-top: 10pxx;
+    padding-top: 10px;
     gap: 30px;
+    
  }
 
 
@@ -191,6 +210,13 @@ main .cart-pokemon .inform span{
     border-radius: 10px;
     padding: 8px;
  }
+
+ .tipo-dark{
+    background-color: rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 8px;
+ }
+ 
 
  .tipo-veneno{
     background-color: rgb(89, 41, 157);
@@ -222,4 +248,167 @@ main .cart-pokemon .inform span{
     border-radius: 10px;
     padding: 8px;
     
+ }
+
+ .tipo-normal{
+    background-color: #a4acaf;
+    border-radius: 10px;
+    padding: 8px;
+    
+
+ }
+ 
+
+.cart-pokemon:nth-child(21) img{
+    transform: scale(40%);
+    position: relative;
+    bottom:-6% ;
+
+ }
+
+ .cart-pokemon:nth-child(22) img{
+    transform: scale(80%);
+    width: 280px;
+
+ }
+  
+ .cart-pokemon:nth-child(2) img{
+    transform: scale(70%);
+    position: relative;
+    bottom: -5%;
+    
+
+ }
+
+ .cart-pokemon:nth-child(3) img{
+    transform: scale(90%);
+    position: relative;
+    height: 200px;
+    bottom: -3%;
+    
+
+ }
+
+ .cart-pokemon:nth-child(4) img{
+    transform: scale(110%);
+    position: relative;
+
+    
+
+ }
+
+ .cart-pokemon:nth-child(8) img{
+    transform: scale(150%);
+    position: relative;
+    bottom: -3%;
+
+
+
+ }
+
+ .cart-pokemon:nth-child(11) img{
+    transform: scale(70%);
+    position: relative;
+    bottom: -4%;
+
+
+
+ }
+
+ .cart-pokemon:nth-child(12) img{
+    transform:scale(110%) ;
+    position: relative;
+    bottom: 5%;
+
+
+
+ }
+
+ .cart-pokemon:nth-child(23) img{
+    transform: scale(130%);
+    position: relative;
+    bottom: 5%;
+
+
+
+ }
+
+ .cart-pokemon:nth-child(24) img{
+    transform: scale(90%);
+    position: relative;
+    bottom: 5%;
+    width: 280px;
+
+
+
+ }
+
+ .cart-pokemon:nth-child(16) img{
+    transform:scale(130%);
+    width:190px;
+    position:relative;
+    bottom: 3%;
+    height:200px;
+    
+ }
+ .cart-pokemon:nth-child(15) img{
+    transform:scale(82%);
+    width:190px;
+    position:relative;
+    bottom: -1%;
+    height:200px;
+    
+ }
+
+ .cart-pokemon:nth-child(20) img{
+    transform:scale(130%)
+ }
+
+ .cart-pokemon:nth-child(14) img{
+    transform:scale(50%);
+    position:relative;
+    bottom:-6%;
+ }
+ .cart-pokemon:nth-child(16) .tipos{
+    position:relative;
+    bottom: 3%;
+
+ }
+ 
+ .cart-pokemon:nth-child(14) .tipos{
+    position:relative;
+    bottom :-2%;
+ }
+
+ .cart-pokemon:nth-child(13) .tipos{
+    position:relative;
+    bottom :-2%;
+ }
+
+ .cart-pokemon:nth-child(25) img{
+    transform:scale(50%);
+    position:relative;
+    bottom:-5%;
+ }
+ 
+
+ .cart-pokemon:nth-child(26) img{
+    transform:scale(80%);
+    position:relative;
+    bottom: 3%;
+ }
+
+ .cart-pokemon:nth-child(27) img{
+    transform:scale(50%);
+    width:120px;
+    position:relative;
+    bottom:-5%;
+ }
+
+ .cart-pokemon:nth-child(28) img{
+    transform:scale(160%);
+    width:150px;
+    height:180px;
+    position:relative;
+    bottom:-5%;
  }
